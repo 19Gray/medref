@@ -71,7 +71,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-accent underline hover:text-accent/80"
             >
-              FALCON
+              Gray
             </a>
           </p>
         </div>

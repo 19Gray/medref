@@ -170,27 +170,36 @@ Click to expand full documentation:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/f6Lcon/medref.git
+```
 
-2. Install Dependencies
 
+### 2. Install Dependencies
+
+```bash
 cd backend && npm install
-cd ../frontend && npm install
+cd ../frontend && yarn
+```
 
-3. Configure Environment Variables
+### 3. Configure Environment Variables
 
 Create .env files in both the backend and frontend directories with your environment-specific variables.
-4. Run the Project
+
+### 4. Run the Project
 
 # Backend
+```bash
 cd backend
 npm run dev
+```
 
 # Frontend
+```bash
 cd ../frontend
 npm run dev
+```
 
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome all contributions! Follow these steps:
 
