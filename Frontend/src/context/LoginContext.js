@@ -1,6 +1,4 @@
-"use client"
-
-import { createContext, useContext } from "react"
+import { createContext, useContext } from "react";
 
 const LoginContext = createContext({
   isLoggedIn: false,
@@ -20,8 +18,8 @@ const LoginContext = createContext({
     canBookAppointments: false,
   },
   checkPermission: () => false,
-})
+});
 
-export const useLoginContext = () => useContext(LoginContext)
+export const useLoginContext = () => useContext(LoginContext);
 
-export default LoginContext
+export default LoginContext;
